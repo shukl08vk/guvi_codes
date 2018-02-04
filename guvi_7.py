@@ -1,7 +1,9 @@
 a=int(raw_input())
-
-for i in range(a):
-        print "Hello"
+if a>0:
+        for i in range(a):
+                print "Hello"
+else:
+        print "0"
 
 
 
